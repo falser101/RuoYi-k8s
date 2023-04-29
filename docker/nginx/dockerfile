@@ -3,8 +3,6 @@ FROM nginx
 # author
 MAINTAINER ruoyi
 
-# 挂载目录
-VOLUME /home/ruoyi/projects/ruoyi-ui
 # 创建目录
 RUN mkdir -p /home/ruoyi/projects/ruoyi-ui
 # 指定路径
